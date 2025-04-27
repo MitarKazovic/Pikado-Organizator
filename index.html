@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pikado Organizator</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Pikado Organizator</h1>
+
+  <div id="player-input">
+    <input type="text" id="player-name" placeholder="Ime igrača">
+    <button onclick="addPlayer()">Dodaj igrača</button>
+  </div>
+
+  <div id="players-list"></div>
+
+  <button onclick="generateMatches()" id="generate-button">Napravi raspored</button>
+
+  <div id="matches-list"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
